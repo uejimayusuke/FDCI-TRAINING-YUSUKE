@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var myStack = [];
+		myStack.push(1);
+		myStack.push(2);
+		myStack.push(3);
+		myStack.push(1);
+		myStack.push(2);
+		myStack.push(3);
+		myStack.push(1);
+		myStack.push(2);
+		myStack.push(3);
+		myStack.push(1);
+		myStack.push(2);
+		myStack.push(3);
+		myStack.push(1);
+		myStack.push(2);
+		myStack.push(1000);
+		myStack.unshift(101);
+		myStack.unshift(102);
+		myStack.pop();
+		myStack.pop();
+		myStack.pop();
+		myStack.push(200);
+		myStack.shift();
+
+//activity 1
+console.log(myStack[myStack.length -2]);
+console.log(2);
+console.log(myStack.length /2 );
+console.log(myStack.splice(2,1));
+console.log(myStack.length);	
+</script>
+</body>
+</html>
