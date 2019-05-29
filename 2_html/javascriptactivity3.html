@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Activity=javascript</title>
+</head>
+<body>
+	<h1>
+		アクティビティー3111
+	</h1>
+	<script>
+		// ----1-----
+		var myArray =["ginkgo-nut","surfing","one-panchi-man","zyan"];
+		//myArray ="" 
+		if (myArray =="")
+		{
+			console.log(myArray.length); 
+		}else{
+			console.log(false);
+		}
+
+		console.log(myArray[0]);
+		console.log(myArray[myArray.length -1]);
+		myArray.pop();
+		myArray.push("yusuke");
+
+		// ----2-----
+
+		// var getSum = function(num1,num2){
+		// 	return 300-200;
+		// } 
+
+
+		var test = function (num1,num2){
+			return num1+num2;
+			
+		}
+		var assighGrade = function(num1){
+			if (100 == num1) {
+				return 'You got perfect score';
+			}else if (80 < num1) {
+				return 'You are doing great!';
+			}else if (80 > num1 && num1 >= 65){
+				console.log('You need more practice!');
+			}else if (65 > num1){
+				console.log('You faild!');
+			}else{
+				console.log('Score accepted is from 1 to 100 only');
+			}
+		}
+
+		console.log(test(300,-200));
+		console.log(test(700,300));
+		console.log(assighGrade(100));
+		console.log(assighGrade(85));
+		assighGrade(65);
+		assighGrade(64);
+
+
+
+
+	</script>
+</body>
+</html>
