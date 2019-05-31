@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var employees = ["noreto", "bon2", "julie", "lemuel"];
+		var hours = [20, 5, 12, 15];
+		var earnings = [5, 6, 7, 8];
+
+		function compute_salary(hours, earnings_per_hour) {
+			return hours * earnings_per_hour;
+
+		}
+
+		function get_num_hours(employee_index){
+			return hours[employee_index];
+		}
+
+		function get_earnings(employee_index){
+			return earnings[employee_index];o
+		}
+
+		// var julie_id = 2;
+		// var julie_hours = get_num_hours(julie_id);
+		// var julie_earnings = get_earnings(julie_id);
+		// var julie_salary = compute_salary(julie_hours, julie_earnings);
+
+		// var lemuel_id = 3;
+		// var lemuel_hours = get_num_hours(lemuel_id);
+		// var lemuel_earnings = get_earnings(lemuel_id);
+		// var lemuel_salary = compute_salary(lemuel_hours, lemuel_earnings);
+
+
+		// var noreto_id = 0;
+		// var noreto_hours = get_num_hours(noreto_id);
+		// var noreto_earnings = get_earnings(julie_id);
+		// var noreto_salary = compute_salary(noreto_hours, noreto_earnings);
+
+
+
+		// var bon2_id = 1;
+		// var bon2_hours = get_num_hours(bon2_id);
+		// var bon2_earnings = get_earnings(bon2_id);
+		// var bon2_salary = compute_salary(bon2_hours, bon2_earnings);
+
+		// console.log("JULIE's SALARY = " + julie_salary);
+		// console.log("LEMUEL's SALARY = " + lemuel_salary);
+		// console.log("NORETO's SALARY = " +bon2_salary);
+		// console.log("BORN2's SALARY = " + bon2_salary);
+
+		for (var i = 0; i < employees.length; i++) {
+			employees[i]
+
+
+			var julie_id = i;
+			var julie_hours = get_num_hours(julie_id);
+			var julie_earnings = get_earnings(julie_id);
+			var julie_salary = compute_salary(julie_hours, julie_earnings);
+			//console.log(julie_salary)
+		}
+
+
+		// for (var i = 0; i < 100; i++) {
+		// 	if (i % 2 == 0) {
+		// 		console.log("even")
+		// 	}else if(i % 2 == 1) {
+		// 		console.log("add")
+		// 	}
+
+		// }
+		function something(){
+
+		}
+
+
+		$arrayOfNumbers = [12,45,62,12,1,15]
+		var largest = 0;
+		for ($i = 0; i < arrayOfNumbers.length; i++) {
+			arrayOfNumbers[i]
+			//console.log(arrayOfNumbers[i]
+				//s)
+			if (arrayOfNumbers[i]>=largest) {
+				
+				console.log(arrayOfNumbers[i] + " replacing " + largest)
+				largest = arrayOfNumbers[i]
+			} else {
+				console.log(arrayOfNumbers[i] + "not greater than " + largest)
+			}
+
+		}
+
+
+
+	</script>
+</body>
+</html>
