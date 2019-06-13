@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JQUERY - ACTIVITY1</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+</head>
+<body>
+	<h1>My First jQuery Activity</h1>
+	<ul>
+		<li class="hidden">Hide Me</li>
+		<li>Show me</li>
+		<li id="hidden">Hide me by ID</li>
+		<li>Show Me</li>
+		<li class="hidden">Hide Me</li>
+		<li class="hidden">Hide Me</li>
+		<li class="remove">Remove Me</li>
+	</ul>
+	<p class="remove">This must be shown</p>
+
+	YOUR NAME: <input type="text" name="myName"><br>
+	YOUR AGE: <input type="text" name="myAge"><br>
+
+	<!-- jQuery -->
+	<script>
+		$(function(){
+			//jquery methods go here...
+		$('li').show();
+		$('.hidden').hide();
+		$('#hidden').hide();
+		$('li.remove').remove();
+
+		});
+	
+
+	$(function(){
+	$("input[name='myName']").val("YUSUKE UEJIMA");	
+	$("input[name='myAge']").val("26YEARD OLD");	
+});
+	</script>
+</body>
+</html>
