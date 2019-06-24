@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<button id="add-btn">insert a div tag!</button>
+	<div id="parent_fdc_div">fdfd</div>
+
+	<script>
+		//element要素追加
+$("#add-btn").on("click", function(){
+  $("#parent_fdc_div").append("<div>fdfd</div>");
+});
+
+	</script>
+</body>
+</html>

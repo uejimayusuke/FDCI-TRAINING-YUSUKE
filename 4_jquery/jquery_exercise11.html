@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<input type="text" id="fdc_textbox">
+	<div id="fdc_text_output"></div>
+	<script>
+		jQuery(document).ready(function($) {
+			$("#fdc_textbox").keyup(function(event) {
+				var test =$("#fdc_textbox").val();
+
+	
+				$("#fdc_text_output").text(test);
+			});
+		});
+
+	</script>
+</body>
+</html>
