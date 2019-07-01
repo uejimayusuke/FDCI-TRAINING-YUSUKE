@@ -1,0 +1,1 @@
+SELECT distinct gender  FROM `employees` 
