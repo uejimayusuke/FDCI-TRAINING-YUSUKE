@@ -1,4 +1,4 @@
-SQL_phpadmin_activity3_4SELECT 
+SELECT 
 count(emp_no)
  FROM 
 `employees` 
