@@ -1,0 +1,4 @@
+
+SELECT *
+ FROM `employees` 
+where first_name like "%San%";
