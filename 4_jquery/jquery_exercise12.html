@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<input type="text" id="fdc_textbox">
+	<input type="checkbox" id="fdc_checkbox">
+	<script>
+		jQuery(document).ready(function($) {
+			jQuery("#fdc_textbox").keyup(function(event) {
+				var test =$("#fdc_textbox").val();
+				if (test==("fdc")) {
+					jQuery("#fdc_checkbox").attr('checked',true);
+				} 
+				else{
+					jQuery("#fdc_checkbox").attr('checked',false);
+				}
+			});
+		});
+
+	</script>
+</body>
+</html>

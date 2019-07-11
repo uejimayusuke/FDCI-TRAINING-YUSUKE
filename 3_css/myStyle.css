@@ -1,0 +1,116 @@
+
+div#top{
+background-color:#35B22C;
+padding:15px 30px; 
+letter-spacing:1px;
+}
+
+.welcome{
+
+color:white;
+}
+
+
+
+#menubar{
+	float:left;
+}
+#menulist{
+padding:2px
+}
+.menuitem{
+width:200px;
+display:block;
+text-align:left;
+padding:5px 7px;
+border-radius: 5px;
+background-color:#B9BDB8;
+margin:2px 2px 2px 2px;
+
+}
+.menuitem:hover{
+background: #35B22C;
+}
+
+div#main{
+font-family:Helvetica;
+margin-left:289px;
+font-size:14px;
+
+}
+
+
+
+.menuitem.selected{
+background:#46bf27;
+}
+
+a#greenbutton{
+font-family:Century Gothic;	
+width:100px;
+text-decoration:none; 
+text-align:center;
+padding:3px 10px;
+border-radius: 2px;
+background-color:green;
+color:white;
+margin-top:1000px ;
+
+}
+
+a#orangebutton{
+width:100px;
+text-decoration:none; 
+font-family:Century Gothic;	
+text-align:center;
+padding:3px 10px;
+border-radius: 2px;
+background-color:orange;
+color:white;
+}
+
+a#bluebutton{
+font-family:Century Gothic;	
+width:100px;
+text-decoration:none; 
+text-align:center;
+padding:3px 15px;
+border-radius: 2px;
+background-color:blue;
+color:white;
+
+}
+ 
+
+
+
+a#redbutton{
+text-decoration:none; 
+font-family:Century Gothic;	
+width:100px;
+text-align:center;
+padding:3px 15px;
+border-radius: 2px;
+background-color:red;
+color:white;
+margin-top:1000px ;
+}
+
+
+div#bottom{
+font-family: system-ui;
+text-decoration:none; 
+text-align:center; 
+padding:20px 20px;
+border-radius: 2px;
+background-color:#f3f3f3;
+margin:30px 0px;
+}
+
+.colorbuttons{
+margin-top:20px;	
+}
+
+p{
+margin-bottom: 50px;
+}

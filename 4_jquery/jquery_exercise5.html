@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="fdc_div_element" style="height:200px;width:200px;"></div>
+<button id="test">WHAT'S MY HEIGHT AND WIDTH</button>
+<script>
+	jQuery(document).ready(function($) {
+    jQuery("#test").click(function(event) {
+			/* Act on the event */
+			alert($("#fdc_div_element").height());
+			alert($("#fdc_div_element").width());
+			var height = $("#fdc_div_element").val();
+			var width = $("#fdc_div_element").val();
+	});
+
+	});
+	
+</script>
+
+</body>
+</html>

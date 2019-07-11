@@ -1,0 +1,7 @@
+select * 
+from address
+left join city 
+on address.address_id=city.city_id
+where address.address_id = 1 
+or address.address_id = 5 
+or address.address_id = 10 ;

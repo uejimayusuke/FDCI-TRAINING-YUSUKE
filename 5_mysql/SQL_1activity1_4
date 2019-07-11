@@ -1,0 +1,4 @@
+SELECT 
+count(emp_no)
+ FROM 
+`employees` 

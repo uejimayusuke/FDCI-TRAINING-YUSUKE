@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<center>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div id="traffic_light" style="border: 1px solid grey; padding: 10px; width: 52px;">
+	<div class="red_light" style="height: 50px; width: 50px; border-radius: 25px; border: 1px solid grey;"></div>
+	<div class="yellow_light" style="height: 50px; width: 50px; border-radius: 25px; border: 1px solid grey;"></div>
+	<div class="green_light" style="height: 50px; width: 50px; border-radius: 25px; border: 1px solid grey;"></div>
+</div>	
+				
+
+</center>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			startTraffic();
+		});
+		function startTraffic(){
+				jQuery("#traffic_light").css("background-color","");
+				jQuery('.green_light').css("background-color","green");
+				setTimeout(function () {
+					jQuery('.green_light').css("background-color","");
+					jQuery('.yellow_light').css("background-color","yellow");
+					setTimeout(function () {
+						jQuery('.yellow_light').css("background-color","");
+						jQuery('.red_light').css("background-color","red");
+						setTimeout(function () {
+							jQuery('.red_light').css("background-color","");
+		    				startTraffic();
+						},2000);
+					},2000);
+				},2000);
+			}
+		
+   		
+	</script>
+</html>
+</script>
+</body>
+</html>

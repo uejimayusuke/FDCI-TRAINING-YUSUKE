@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Hide me 1!</h1>
+	<h1>Hide me 2!</h1>
+	<h1>Hide me 3!</h1>
+	<h1>Hide me 4!</h1>
+	<h1>Hide me 5!</h1>
+	<h1>Hide me 6!</h1>
+<script>
+jQuery(document).ready(function($) {
+	jQuery("h1").click(function(event) {
+		/* Act on the event */
+    jQuery(this).hide();
+	});
+});
+</script>
+</body>
+</html>
