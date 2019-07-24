@@ -1,6 +1,25 @@
 <?php
-$numbers=[1,2,3,4,5];
-for ($i=4; $i<=count($numbers)&&$i>=0;$i--){
-	$number=$numbers[$i];
-echo $number."<br>";
+
+// for
+$a=["apple",
+    "orange",
+    "pineapple",
+    "strawberry"];
+
+	print_r($a)."<br>";
+
+for ($i=0; $i <count($a); $i++) {
+echo $a[$i]."<br>";
 }
+
+
+
+///while 
+
+while ($a<= 3) {
+	echo $a;
+	$a++;
+}
+//
+
+?>
