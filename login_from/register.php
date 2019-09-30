@@ -100,7 +100,7 @@ die();
                 </label>
             </div>
 
-            <!-- login button -->
+            <!-- login ;button -->
             <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
         </form>
     </body>

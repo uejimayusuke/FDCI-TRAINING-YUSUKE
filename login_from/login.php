@@ -64,7 +64,7 @@ if (isset($_POST["user_email"])) {
         <!-- Bootstrap core CSS -->
         <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Custom styles for this template -->
+        <!-- Custom ;styles for this template -->
         <link href="https://getbootstrap.com/docs/4.0/examples/sign-in/signin.css" rel="stylesheet">
     </head>
     <body class="text-center">

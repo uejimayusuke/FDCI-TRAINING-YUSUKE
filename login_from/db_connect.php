@@ -1,6 +1,6 @@
 <?php
 // - ALWAYS INITIALISE SESSION
-// - sessions
+// - sessions:
 error_reporting(E_ERROR | E_PARSE);
 session_start();
 
