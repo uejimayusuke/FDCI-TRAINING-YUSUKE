@@ -10,6 +10,7 @@
 </html>
 
 <?php 
+
 error_reporting(E_ALL ^ E_WARNING); 
 // - server information
 $host = "localhost";
@@ -24,5 +25,6 @@ if(!$conn){
     }
 
     include("DB_fail.php");
+    
     ?>
 
